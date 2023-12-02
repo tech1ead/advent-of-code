@@ -1,10 +1,8 @@
-﻿using System.Text.RegularExpressions;
-
-namespace AdventOfCode;
+﻿namespace AdventOfCode;
 public class Day1
 {
-    static string[] input1 = File.ReadAllLines("Input\\day1_1.in");
-    static string[] input2 = File.ReadAllLines("Input\\day1_2.in");
+    static string[] input1 = File.ReadAllLines("Input\\Day1\\day1_1.in");
+    static string[] input2 = File.ReadAllLines("Input\\Day1\\day1_2.in");
     static Dictionary<string, string> dict = new()
     {
           {"one","o1e"},
@@ -45,7 +43,6 @@ public class Day1
         }
         Console.WriteLine($"Result: {resultSum2}");
     }
-    // For the first half of the puzzle
     private static char GetFirstCharDigit(char[] chars)
     {
         foreach (char c in chars)
@@ -61,10 +58,8 @@ public class Day1
     {
         foreach (var pair in dict)
         {
-            // Replace each occurrence of the word with its numeric value
             s = s.Replace(pair.Key, pair.Value.ToString());
         }
         return s;
     }
-
 }
