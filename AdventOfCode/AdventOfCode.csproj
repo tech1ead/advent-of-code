@@ -32,11 +32,15 @@
     <None Update="Input\Day5\day5_1.in">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="Input\Day6\day6_1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Input\Day2\" />
     <Folder Include="Input\Day5\" />
+    <Folder Include="Input\Day6\" />
   </ItemGroup>
 
 </Project>
