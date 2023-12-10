@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Input\Day10\day10_1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="Input\Day1\day1_1.in">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -52,6 +55,7 @@
     <Folder Include="Input\Day6\" />
     <Folder Include="Input\Day7\" />
     <Folder Include="Input\Day8\" />
+    <Folder Include="Input\Day10\" />
   </ItemGroup>
 
 </Project>
